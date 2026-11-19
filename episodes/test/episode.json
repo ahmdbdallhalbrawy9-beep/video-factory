@@ -1,0 +1,13 @@
+{
+  "voice": "ar-EG-ShakirNeural",
+  "width": 540,
+  "height": 960,
+  "samples": 16,
+  "scene_script": "pipeline/scene_test.py",
+  "scenes": [
+    {
+      "text": "ليه كل الأسعار بتنتهي بتسعة وتسعين؟ السر مش في الفلوس... السر في دماغك.",
+      "caption": "ليه كل الأسعار بتنتهي بـ ٩٩؟"
+    }
+  ]
+}

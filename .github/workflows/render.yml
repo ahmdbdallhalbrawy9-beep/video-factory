@@ -1,0 +1,45 @@
+name: render-episode
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Path to episode.json"
+        default: "episodes/test/episode.json"
+  push:
+    paths:
+      - "episodes/**"
+      - "pipeline/**"
+      - ".github/workflows/render.yml"
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools (Blender, ffmpeg, Arabic fonts)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y blender ffmpeg fonts-noto-core
+          blender --version | head -1
+          fc-list :lang=ar | head -3
+
+      - name: Install Python deps
+        run: |
+          pip install edge-tts gTTS playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Build episode
+        run: |
+          EP="${{ github.event.inputs.episode }}"
+          python pipeline/build.py "${EP:-episodes/test/episode.json}" out
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode
+          path: |
+            out/final.mp4
+            out/info.json
+          retention-days: 14
