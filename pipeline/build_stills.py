@@ -89,7 +89,7 @@ for i, s in enumerate(man["shots"]):
     zin = s.get("zoom", "in") == "in"
     zexpr = f"1+0.13*on/{N}" if zin else f"1.13-0.13*on/{N}"
     if ih > iw * 1.3:  # already vertical: full bleed
-        fg = (f"[0:v]scale=1440:2560:flags=lanczos,zoompan=z='{zexpr}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+        fg = (f"[0:v]scale=1440:2560:flags=lanczos,unsharp=5:5:0.9:5:5:0.0,zoompan=z='{zexpr}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
               f"d={N}:s={W}x{H}:fps={FPS}[fg]")
         comp = "[fg]null[base]"
     else:  # landscape: square window, blurred full-bleed background

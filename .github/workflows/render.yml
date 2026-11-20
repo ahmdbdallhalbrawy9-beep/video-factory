@@ -6,11 +6,6 @@ on:
       episode:
         description: "Path to episode.json"
         default: "episodes/test/episode.json"
-  push:
-    paths:
-      - "episodes/**"
-      - "pipeline/**"
-      - ".github/workflows/render.yml"
 
 jobs:
   render:
