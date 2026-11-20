@@ -1,0 +1,66 @@
+{
+ "voice": "episodes/ep1/voice_tight.wav",
+ "shots": [
+  {
+   "image": "episodes/ep1/s1.jpg",
+   "caption": "ليه كل الأسعار<br>بتنتهي بـ <span class='hl'>٩٩</span>؟",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep1/s2.jpg",
+   "caption": "الكاشير؟<br><span class='hl'>حكاية قديمة</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep1/s3.jpg",
+   "caption": "نفس القميص<br>بتلات أسعار",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep1/s4.jpg",
+   "caption": "وكسب مين؟<br><span class='hl'>٤٩</span> مش الأرخص",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep1/s5.jpg",
+   "caption": "مخك بيقرا الرقم<br><span class='hl'>من الشمال</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep1/s6.jpg",
+   "caption": "بيشوف الـ<span class='hl'>٤٠</span><br>مش الخمسين",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep1/s7.jpg",
+   "caption": "الـ<span class='hl'>٩</span> بتتقري<br>كأنها تخفيض",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep1/s8.jpg",
+   "caption": "من غير ما حد<br>يكتب كلمة <span class='hl'>خصم</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep1/s9.jpg",
+   "caption": "المحلات عارفة<br>وبتلعب بيك",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep1/s10.jpg",
+   "caption": "عشان كده...<br><span class='hl'>٩٩</span>",
+   "zoom": "out"
+  }
+ ],
+ "cuts": [
+  3.01,
+  6.86,
+  15.14,
+  17.69,
+  20.79,
+  23.03,
+  25.83,
+  28.23,
+  31.23
+ ]
+}
