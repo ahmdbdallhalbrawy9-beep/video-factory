@@ -176,7 +176,7 @@ for fc in cam.animation_data.action.fcurves:
 scene.render.engine = "CYCLES"
 scene.cycles.device = "CPU"
 scene.cycles.samples = SAMPLES
-scene.cycles.use_denoising = True
+scene.cycles.use_denoising = bool(getattr(bpy.app.build_options, "openimagedenoise", False))
 try:
     scene.cycles.denoiser = "OPENIMAGEDENOISE"
 except Exception:
