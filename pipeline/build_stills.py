@@ -55,6 +55,8 @@ if n > 1:
     if len(cuts) != n - 1:
         print("silence detection gave", len(cuts), "cuts; falling back to equal splits", flush=True)
         cuts = [D * (i + 1) / n for i in range(n - 1)]
+if man.get("cuts") and len(man["cuts"])==n-1:
+    cuts = man["cuts"]
 print("voice seconds", D, "cuts", cuts, flush=True)
 bounds = [0.0] + [LEAD + c for c in cuts] + [LEAD + D + TAIL]
 total = bounds[-1]
