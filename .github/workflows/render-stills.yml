@@ -1,0 +1,43 @@
+name: render-stills
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: "Path to manifest.json"
+        default: "episodes/test2/manifest.json"
+      name:
+        description: "Output name (no extension)"
+        default: "test2"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-core
+          pip install numpy playwright
+          python -m playwright install --with-deps chromium
+      - name: Build
+        run: python pipeline/build_stills.py "${{ inputs.manifest }}" out
+      - name: Publish to renders branch
+        run: |
+          mkdir -p /tmp/pub
+          cp out/final.mp4 "/tmp/pub/${{ inputs.name }}.mp4"
+          cp out/info.json "/tmp/pub/${{ inputs.name }}.json"
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git fetch origin renders || true
+          git checkout --orphan renders-new
+          git rm -rf . -q
+          cp /tmp/pub/* .
+          git add .
+          git commit -q -m "render ${{ inputs.name }}"
+          git push -f origin renders-new:renders

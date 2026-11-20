@@ -1,0 +1,23 @@
+{
+  "voice": "https://elevenlabsusercontent.com/database/workspace/5b1c2aa72bbd4575b69c239ff0a69e56/content_generation/Yw48nMabxNYbFxLb6nZ6/DBh9kPdQ6CpzAWR3khn7/content.mp3?Expires=1795172400&KeyName=assets-cdn-key-1&Signature=XxJI2x1RNbuZfV4H_Frml9e7WDE=",
+  "shots": [
+    {
+      "image": "https://elevenlabsusercontent.com/database/workspace/5b1c2aa72bbd4575b69c239ff0a69e56/content_generation/eCrjd1EJUvKrYuQ9vHZQ/l7SZyIjCzezMRzgqKxUX/content.png?Expires=1795172400&KeyName=assets-cdn-key-1&Signature=fImXePlQYj0CXf4Uw0lN4kAHHXE=",
+      "caption": "ليه كل الأسعار<br>بتنتهي بـ <span class='hl'>٩٩</span>؟",
+      "focus": 0.62,
+      "zoom": "in"
+    },
+    {
+      "image": "https://elevenlabsusercontent.com/database/workspace/5b1c2aa72bbd4575b69c239ff0a69e56/content_generation/qjwI7NfjKTq7TK2Rkelw/TRti0tTnSnw2jMx8G7on/content.png?Expires=1795172400&KeyName=assets-cdn-key-1&Signature=3F0g0XDEnWdGJ2QhWOD4t1CgHIQ=",
+      "caption": "السر مش في الفلوس...",
+      "focus": 0.36,
+      "zoom": "in"
+    },
+    {
+      "image": "https://elevenlabsusercontent.com/database/workspace/5b1c2aa72bbd4575b69c239ff0a69e56/content_generation/1rDRZ8CllmXVS2lIdCfM/EfLzteXXzfdlaoBQkEJd/content.png?Expires=1795172400&KeyName=assets-cdn-key-1&Signature=Fu--cOATnjeE7iZwK1hwg0T-cSM=",
+      "caption": "السر في <span class='hl'>دماغك</span>",
+      "focus": 0.5,
+      "zoom": "out"
+    }
+  ]
+}
