@@ -1,0 +1,78 @@
+{
+ "voice": "episodes/ep4/voice_tight.wav",
+ "cuts": [
+  4.2,
+  8.61,
+  11.6,
+  14.36,
+  16.98,
+  18.95,
+  22.53,
+  27.86,
+  30.64,
+  35.68,
+  39.11
+ ],
+ "shots": [
+  {
+   "image": "episodes/ep4/s1.jpg",
+   "caption": "الحجم الوسط<br>في المنيو<br>مش <span class='hl'>صدفة</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep4/s2.jpg",
+   "caption": "صغير ٤٠ · وسط ٩٠<br>كبير <span class='hl'>١٠٠</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep4/s3.jpg",
+   "caption": "سعر الوسط<br><span class='hl'>غريب</span>!",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep4/s4.jpg",
+   "caption": "اسمه<br><span class='hl'>الخيار المخادع</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep4/s5.jpg",
+   "caption": "الوسط مش معمول<br>عشان <span class='hl'>يتباع</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep4/s6.jpg",
+   "caption": "معمول عشان<br><span class='hl'>تقارن</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep4/s7.jpg",
+   "caption": "الكبير يبان<br><span class='hl'>صفقة</span><br>بس ١٠ جنيه زيادة",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep4/s8.jpg",
+   "caption": "أبحاث بتقول:<br>ناس أكتر بتختار<br><span class='hl'>الأغلى</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep4/s9.jpg",
+   "caption": "مخك بيقارن<br>مش بيحسب<br><span class='hl'>القيمة</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep4/s10.jpg",
+   "caption": "أنا عايز الكبير<br><span class='hl'>فعلاً؟</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep4/s11.jpg",
+   "caption": "الحلقة الجاية؟<br>١ - كيس الشيبسي<br>نصه <span class='hl'>هوا</span>؟",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep4/s12.jpg",
+   "caption": "٢ - اشتري ١<br>وخد ١ <span class='hl'>مجاناً</span><br>اكتب رقمك",
+   "zoom": "out"
+  }
+ ]
+}
