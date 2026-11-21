@@ -143,10 +143,10 @@ def hit(f=62, d=0.7):
     return np.sin(2 * np.pi * f * tt * (1 + 0.5 * np.exp(-tt * 18))) * np.exp(-tt * 5)
 
 
-add(sfx, 0.05, hit(), 0.55)
+add(sfx, 0.05, hit(), 0.22)
 for b in bounds[1:-1]:
-    add(sfx, b - 0.28, whoosh(), 0.45)
-    add(sfx, b, hit(70, 0.5), 0.40)
+    add(sfx, b - 0.28, whoosh(), 0.14)
+    add(sfx, b, hit(70, 0.5), 0.10)
 mix = mus + sfx
 mix[: int(0.3 * SR)] *= np.linspace(0, 1, int(0.3 * SR))
 mix = mix[: int(total * SR)]
