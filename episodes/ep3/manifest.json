@@ -1,0 +1,78 @@
+{
+ "voice": "episodes/ep3/voice_tight.wav",
+ "cuts": [
+  3.18,
+  6.39,
+  8.93,
+  12.81,
+  17.43,
+  22.2,
+  24.83,
+  26.72,
+  29.75,
+  33.15,
+  36.17
+ ],
+ "shots": [
+  {
+   "image": "episodes/ep3/s1.jpg",
+   "caption": "لو دخلت مطعم غالي<br>هتلاحظ حاجة <span class='hl'>غريبة</span><br>في المنيو",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep3/s2.jpg",
+   "caption": "الأسعار<br><span class='hl'>أرقام بس</span><br>من غير علامة الجنيه",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep3/s3.jpg",
+   "caption": "وفيه <span class='hl'>دراسة</span><br>بتقول إن ده<br>بيأثر عليك",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep3/s4.jpg",
+   "caption": "دراسة من جامعة <span class='hl'>كورنيل</span><br>على <span class='hl'>٢٠١</span> زبون",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep3/s5.jpg",
+   "caption": "تلات منيوهات:<br>بالدولار، بالحروف،<br><span class='hl'>بالرقم لوحده</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep3/s6.jpg",
+   "caption": "اللي جاله من غير<br>علامة العملة<br>صرف أكتر <span class='hl'>٨٪</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep3/s7.jpg",
+   "caption": "ليه؟",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep3/s8.jpg",
+   "caption": "علامة العملة<br>بتفكّرك إنك <span class='hl'>بتدفع</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep3/s9.jpg",
+   "caption": "وفكرة الدفع<br><span class='hl'>بتوجع</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep3/s10.jpg",
+   "caption": "الرقم لوحده<br>مجرد رقم<br>مش <span class='hl'>فلوسك</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep3/s11.jpg",
+   "caption": "حيلة بسيطة<br>بتشتغل على<br><span class='hl'>مخك</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep3/s12.jpg",
+   "caption": "ولو ملقتش<br>علامة العملة...<br><span class='hl'>خد بالك</span>",
+   "zoom": "out"
+  }
+ ]
+}
