@@ -16,12 +16,12 @@
  "shots": [
   {
    "image": "episodes/ep3/s1.jpg",
-   "caption": "لو دخلت مطعم غالي<br>هتلاحظ حاجة <span class='hl'>غريبة</span><br>في المنيو",
+   "caption": "مطعم غالي؟<br>هتلاحظ حاجة <span class='hl'>غريبة</span>",
    "zoom": "in"
   },
   {
    "image": "episodes/ep3/s2.jpg",
-   "caption": "الأسعار<br><span class='hl'>أرقام بس</span><br>من غير علامة الجنيه",
+   "caption": "الأسعار<br><span class='hl'>أرقام بس</span><br>من غير جنيه",
    "zoom": "out"
   },
   {
