@@ -1,0 +1,66 @@
+{
+ "voice": "episodes/ep2/voice_tight.wav",
+ "cuts": [
+  3.79,
+  4.32,
+  8.35,
+  9.68,
+  13.63,
+  16.15,
+  18.86,
+  22.18,
+  23.38
+ ],
+ "shots": [
+  {
+   "image": "episodes/ep2/s1.jpg",
+   "caption": "حوالي <span class='hl'>٤٠٪</span><br>من أرباح السينما...<br>جاية من الفشار",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep2/s2.jpg",
+   "caption": "ليه؟",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep2/s3.jpg",
+   "caption": "التذكرة<br>الجزء الأكبر منها<br><span class='hl'>لشركة الفيلم</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep2/s4.jpg",
+   "caption": "فالسينما<br>ملهاش غير <span class='hl'>الأكل</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep2/s5.jpg",
+   "caption": "<span class='hl'>٢٠٪</span> من إيراداتها<br>و<span class='hl'>٤٠٪</span> من أرباحها",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep2/s6.jpg",
+   "caption": "تكلفته<br><span class='hl'>جزء صغير</span> من سعره",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep2/s7.jpg",
+   "caption": "هامش الربح<br>حوالي <span class='hl'>٨٥٪</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep2/s8.jpg",
+   "caption": "عشان كده<br>بيمنعوك تدخل<br><span class='hl'>أكل من بره</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep2/s9.jpg",
+   "caption": "إنت مش<br>بتشتري <span class='hl'>فشار</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep2/s10.jpg",
+   "caption": "بتدفع تمن إن<br>السينما <span class='hl'>تفضل شغالة</span>",
+   "zoom": "out"
+  }
+ ]
+}
