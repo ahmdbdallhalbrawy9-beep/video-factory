@@ -143,23 +143,23 @@ def hit(f=62, d=0.7):
     return np.sin(2 * np.pi * f * tt * (1 + 0.5 * np.exp(-tt * 18))) * np.exp(-tt * 5)
 
 
-add(sfx, 0.05, hit(), 0.22)
+add(sfx, 0.05, hit(), 0.10)
 for b in bounds[1:-1]:
-    add(sfx, b - 0.28, whoosh(), 0.14)
-    add(sfx, b, hit(70, 0.5), 0.10)
+    add(sfx, b - 0.22, whoosh(0.4), 0.05)
 mix = mus + sfx
 mix[: int(0.3 * SR)] *= np.linspace(0, 1, int(0.3 * SR))
 mix = mix[: int(total * SR)]
 mix *= np.clip((total - t[: len(mix)]) / 0.8, 0, 1)
 pk = np.abs(mix).max()
-mix = mix / max(pk, 1e-9) * 0.5
+mix = mix / max(pk, 1e-9) * 0.30
 with wave.open(f"{out}/bed.wav", "wb") as w:
     w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
     w.writeframes((mix * 32767).astype(np.int16).tobytes())
 
 sh(["ffmpeg", "-y", "-v", "error", "-i", f"{out}/silent.mp4", "-i", f"{out}/voice.wav", "-i", f"{out}/bed.wav",
     "-filter_complex",
-    f"[1:a]adelay={int(LEAD * 1000)}:all=1,volume=1.0[v];[2:a]volume=0.55[b];"
+    f"[1:a]adelay={int(LEAD * 1000)}:all=1,volume=1.0,asplit=2[v][vs];[2:a]volume=0.45[b0];"
+    f"[b0][vs]sidechaincompress=threshold=0.02:ratio=6:attack=5:release=300[b];"
     f"[v][b]amix=inputs=2:duration=longest:normalize=0,loudnorm=I=-15:TP=-1.5:LRA=9[a]",
     "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", f"{out}/final.mp4"])
 json.dump({"seconds": total, "bounds": bounds, "voice_seconds": D}, open(f"{out}/info.json", "w"))
