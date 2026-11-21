@@ -1,0 +1,78 @@
+{
+ "voice": "episodes/ep5/voice_tight.wav",
+ "cuts": [
+  2.4,
+  4.55,
+  7.28,
+  11.68,
+  16.51,
+  19.8,
+  22.61,
+  25.1,
+  28.65,
+  31.9,
+  33.7
+ ],
+ "shots": [
+  {
+   "image": "episodes/ep5/s1.jpg",
+   "caption": "نص كيس الشيبسي<br>اللي اشتريته<br><span class='hl'>هوا</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep5/s2.jpg",
+   "caption": "بس الهوا ده<br>مش هوا <span class='hl'>عادي</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep5/s3.jpg",
+   "caption": "غاز <span class='hl'>النيتروجين</span><br>مش للتمويه",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep5/s4.jpg",
+   "caption": "زي <span class='hl'>المخدة</span><br>بتحمي من الكسر",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep5/s5.jpg",
+   "caption": "الأكسجين<br>بيبوّظ <span class='hl'>الزيت</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep5/s6.jpg",
+   "caption": "الرطوبة<br>بتخلّيه <span class='hl'>ينعّج</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep5/s7.jpg",
+   "caption": "لحد هنا<br>كله <span class='hl'>منطقي</span>...<br>بس",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep5/s8.jpg",
+   "caption": "بيخليك تحس<br>إن اللي جواه<br><span class='hl'>أكتر</span>",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep5/s9.jpg",
+   "caption": "في بعض البلاد<br>قوانين على<br><span class='hl'>الفراغ الزيادة</span>",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep5/s10.jpg",
+   "caption": "بصّ على<br><span class='hl'>الوزن</span> المكتوب",
+   "zoom": "out"
+  },
+  {
+   "image": "episodes/ep5/s11.jpg",
+   "caption": "لو عجبك الفيديو<br><span class='hl'>تابع</span> القناة",
+   "zoom": "in"
+  },
+  {
+   "image": "episodes/ep5/s12.jpg",
+   "caption": "الحلقة الجاية؟<br>١ - اشتري ١ وخد ١<br>٢ - اللبن والعيش",
+   "zoom": "out"
+  }
+ ]
+}
