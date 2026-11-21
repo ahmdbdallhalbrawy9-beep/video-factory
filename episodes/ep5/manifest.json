@@ -16,7 +16,7 @@
  "shots": [
   {
    "image": "episodes/ep5/s1.jpg",
-   "caption": "نص كيس الشيبسي<br>اللي اشتريته<br><span class='hl'>هوا</span>",
+   "caption": "نص الكيس<br>اللي اشتريته<br><span class='hl'>هوا</span>",
    "zoom": "in"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
    "image": "episodes/ep5/s7.jpg",
-   "caption": "لحد هنا<br>كله <span class='hl'>منطقي</span>...<br>بس",
+   "caption": "لحد هنا كله<br><span class='hl'>منطقي</span>... بس",
    "zoom": "in"
   },
   {
